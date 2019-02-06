@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:paddingLeft="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main4Activity">
+
+    <Spinner
+        android:id="@+id/kelas"
+        android:entries="@array/kelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/pilih"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="PILIH"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/jurusan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Jurusan :"
+        android:textSize="18sp" />
+
+    <RadioButton
+        android:id="@+id/sistem_informasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sistem Informasi" />
+
+    <RadioButton
+        android:id="@+id/teknik_industri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teknik Industri" />
+
+    <TextView
+        android:id="@+id/bahasa_program"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Bahsa Pemrogaman :"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/java"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Java" />
+
+    <CheckBox
+        android:id="@+id/php"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PHP" />
+
+    <CheckBox
+        android:id="@+id/c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C++" />
+
+    <CheckBox
+        android:id="@+id/actionscript"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actionscript" />
+
+    <CheckBox
+        android:id="@+id/phyton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phyton" />
+
+    <CheckBox
+        android:id="@+id/javascript"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Javascript" />
+
+    <Button
+        android:id="@+id/tampil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="TAMPIL"
+        android:textColor="@color/colorPrimary" />
+
+</LinearLayout>
